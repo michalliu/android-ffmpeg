@@ -5,6 +5,9 @@
 pushd ffmpeg
 
 case $1 in
+  armeabi)
+    CPU='cortex-a5'
+  ;;
   armeabi-v7a | armeabi-v7a-neon)
     CPU='cortex-a8'
   ;;

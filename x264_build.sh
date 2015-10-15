@@ -7,7 +7,7 @@ pushd x264
 make clean
 
 case $1 in
-  armeabi-v7a | armeabi-v7a-neon)
+  armeabi | armeabi-v7a | armeabi-v7a-neon)
     HOST=arm-linux
   ;;
   x86)

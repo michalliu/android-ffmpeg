@@ -5,7 +5,7 @@
 BASEDIR=$2
 
 case $1 in
-  armeabi-v7a)
+  armeabi | armeabi-v7a)
     NDK_ABI='arm'
     NDK_TOOLCHAIN_ABI='arm-linux-androideabi'
     NDK_CROSS_PREFIX="${NDK_TOOLCHAIN_ABI}"
