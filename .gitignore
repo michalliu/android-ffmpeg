@@ -36,3 +36,6 @@ Temporary Items
 
 # KDE directory preferences
 .directory
+
+*.log
+faac-*
