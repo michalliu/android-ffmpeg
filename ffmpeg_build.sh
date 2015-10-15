@@ -88,11 +88,14 @@ $ABLES \
 --enable-libx264 \
 --enable-libfaac \
 --disable-decoders \
+--enable-decoder=mjpeg \
 --disable-parsers \
 --disable-muxers \
 --enable-muxer=mp4 \
 --disable-demuxers \
+--enable-demuxer=image2 \
 --disable-protocols \
+--enable-protocol=file \
 --disable-devices \
 --disable-bsfs \
 --enable-nonfree \
