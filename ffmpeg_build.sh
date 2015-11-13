@@ -94,6 +94,7 @@ $ABLES \
 --enable-muxer=mp4 \
 --disable-demuxers \
 --enable-demuxer=image2 \
+--enable-demuxer=mp3 \
 --disable-protocols \
 --enable-protocol=file \
 --disable-devices \
