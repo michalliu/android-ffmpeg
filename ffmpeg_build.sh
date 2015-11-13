@@ -89,6 +89,7 @@ $ABLES \
 --enable-libfaac \
 --disable-decoders \
 --enable-decoder=mjpeg \
+--enable-decoder=mp3 \
 --disable-parsers \
 --disable-muxers \
 --enable-muxer=mp4 \
