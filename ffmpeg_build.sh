@@ -96,6 +96,7 @@ $ABLES \
 --disable-demuxers \
 --enable-demuxer=image2 \
 --enable-demuxer=mp3 \
+--enable-demuxer=mov \
 --disable-protocols \
 --enable-protocol=file \
 --disable-devices \
