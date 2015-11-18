@@ -90,6 +90,8 @@ $ABLES \
 --disable-decoders \
 --enable-decoder=mjpeg \
 --enable-decoder=mp3 \
+--enable-decoder=h264 \
+--enable-decoder=aac \
 --disable-parsers \
 --disable-muxers \
 --enable-muxer=mp4 \
